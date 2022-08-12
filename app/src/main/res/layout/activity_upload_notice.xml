@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".UploadNotice">
 
     <LinearLayout
@@ -15,7 +16,7 @@
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            android:id="@+id/addNotice"
+            android:id="@+id/addImage"
             android:layout_gravity="center"
             app:cardElevation="5dp">
 
@@ -42,7 +43,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Upload Notice"
+                    android:text="Upload Image"
                     android:textStyle="bold"
                     android:padding="5dp"
                     android:layout_marginTop="10dp"/>
@@ -51,6 +52,25 @@
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Notice"
+            android:layout_marginTop="16dp"
+            android:textALLCaps="false"
+            android:id="@+id/uploadNoticeBtn"/>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="400dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:id="@+id/noticeImageView"/>
+        </com.google.android.material.card.MaterialCardView>
+            I
 
     </LinearLayout>
 
