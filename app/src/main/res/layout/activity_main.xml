@@ -160,7 +160,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/circle_yellow"
-                    android:src="@drawable/ic_post"
+                    android:src="@drawable/ic_group"
                     android:padding="15dp"/>
 
                 <View
