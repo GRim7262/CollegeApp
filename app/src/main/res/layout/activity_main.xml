@@ -160,7 +160,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/circle_yellow"
-                    android:src="@drawable/ic_group"
+                    android:src="@drawable/ic_post"
                     android:padding="15dp"/>
 
                 <View
@@ -172,7 +172,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Upadte Faculty"
+                    android:text="Upload Post"
                     android:textStyle="bold"
                     android:padding="5dp"
                     android:layout_marginTop="10dp"/>
@@ -221,7 +221,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Delete Notice"
+                    android:text="Upload Marks"
                     android:textStyle="bold"
                     android:padding="5dp"
                     android:layout_marginTop="10dp"/>
