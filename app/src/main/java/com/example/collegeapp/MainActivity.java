@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.collegeapp.notice.UploadNotice;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     CardView uploadNotice, addGalleryImage, addEbook;

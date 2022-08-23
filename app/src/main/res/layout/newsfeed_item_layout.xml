@@ -28,6 +28,7 @@
                 android:textSize="24sp"/>
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/deleteNotice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Delete"
@@ -36,12 +37,14 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/deleteNoticeTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Subscribe Papaya Coders for mo knksa jnsdifj jnsjndvn jnijjiszd jnjiz nijidfs"
             android:textSize="17sp"/>
 
         <ImageView
+            android:id="@+id/deleteNoticeImage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scaleType="fitXY"/>
