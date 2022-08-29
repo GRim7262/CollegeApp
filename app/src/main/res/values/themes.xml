@@ -1,6 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.CollegeApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- White becomes the default background color of xml layouts in app. -->
+       <!-- <item name="android:colorBackground">@color/white</item> -->
         <!-- Primary brand color. -->
         <item name="colorPrimary">#0277bd</item>
         <item name="colorPrimaryDark">#004c8c</item>

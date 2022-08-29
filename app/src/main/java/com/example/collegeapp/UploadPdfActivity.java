@@ -152,7 +152,7 @@ public class UploadPdfActivity extends AppCompatActivity {
                     Cursor cursor = null;
                     cursor = UploadPdfActivity.this.getContentResolver().query(pdfData, null, null, null, null);
                     if (cursor != null && cursor.moveToFirst()){
-                        pdfName = cursor.getString(cursor.getColumnIndex(OpenableColumns.DISPLAY_NAME));
+                        pdfName = cursor.getString(cursor.getColumnIndex(OpenableColumns.DISPLAY_NAME));// error dose not crash build or app
                     }
                 } catch (Exception e) {
                     e.printStackTrace();

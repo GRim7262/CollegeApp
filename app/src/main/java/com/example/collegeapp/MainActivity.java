@@ -11,7 +11,7 @@ import com.example.collegeapp.notice.UploadNotice;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    CardView uploadNotice, addGalleryImage, addEbook;
+    CardView uploadNotice, addGalleryImage, addEbook, deleteNotice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,10 +21,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         uploadNotice = findViewById(R.id.addNotice);
         addGalleryImage = findViewById(R.id.addGalleryImage);
         addEbook = findViewById(R.id.addEbook);
+        deleteNotice = findViewById(R.id.deleteNotice);
 
         uploadNotice.setOnClickListener(this);
         addGalleryImage.setOnClickListener(this);
         addEbook.setOnClickListener(this);
+        deleteNotice.setOnClickListener(this);
     }
 
     @Override
@@ -44,6 +46,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.addEbook:
                 Intent intent2 = new Intent(MainActivity.this, UploadPdfActivity.class);
                 startActivity(intent2);
+                break;
+
+            case R.id.deleteNotice:
+                Intent intent3 = new Intent(MainActivity.this, DeleteNoticeActivity.class);
+                startActivity(intent3);
                 break;
         }
     }

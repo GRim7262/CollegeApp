@@ -11,17 +11,15 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/CollegeApp/app/src/main/res/drawable/circle_yellow.xml" value="0.2265" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/CollegeApp/app/src/main/res/drawable/ic_gallery.xml" value="0.2265" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/CollegeApp/app/src/main/res/drawable/ic_notice.xml" value="0.2265" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/CollegeApp/app/src/main/res/drawable/ic_upload.xml" value="0.2265" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/CollegeApp/app/src/main/res/layout/activity_delete_notice.xml" value="0.264" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/CollegeApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/CollegeApp/app/src/main/res/layout/activity_upload_image.xml" value="0.25" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/CollegeApp/app/src/main/res/layout/activity_upload_notice.xml" value="0.264" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/CollegeApp/app/src/main/res/layout/activity_upload_pdf.xml" value="0.25" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/CollegeApp/app/src/main/res/layout/newsfeed_item_layout.xml" value="0.24895833333333334" />
-        <entry key="..\:/Users/vinal/Desktop/CollegeApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/CollegeApp/app/src/main/res/layout/activity_upload_notice.xml" value="0.1" />
+        <entry key="..\:/Users/vinal/Desktop/CollegeApp/app/src/main/res/layout/activity_delete_notice.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/vinal/Desktop/CollegeApp/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/vinal/Desktop/CollegeApp/app/src/main/res/layout/activity_upload_image.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/vinal/Desktop/CollegeApp/app/src/main/res/layout/activity_upload_notice.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/vinal/Desktop/CollegeApp/app/src/main/res/layout/activity_upload_pdf.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/vinal/Desktop/CollegeApp/app/src/main/res/layout/newsfeed_item_layout.xml" value="0.16666666666666666" />
       </map>
     </option>
   </component>
