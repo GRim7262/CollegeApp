@@ -126,4 +126,3 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeView
 
 }
 
-ds
