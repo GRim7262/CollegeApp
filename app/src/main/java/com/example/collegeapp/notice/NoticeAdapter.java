@@ -89,6 +89,8 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeView
                             }
                         }
                 );
+
+                //Alert box which asks if you want to delete notice or not.
                 AlertDialog dialog = null;
                 try {
                     dialog = builder.create();
