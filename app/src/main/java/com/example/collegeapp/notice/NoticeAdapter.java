@@ -89,6 +89,7 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeView
                             }
                         }
                 );
+
                 AlertDialog dialog = null;
                 try {
                     dialog = builder.create();
@@ -124,3 +125,4 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeView
     }
 
 }
+
