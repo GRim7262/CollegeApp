@@ -14,3 +14,4 @@ public class DeleteNoticeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_delete_notice);
     }
 }
+//vinal
